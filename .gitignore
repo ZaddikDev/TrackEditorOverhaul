@@ -400,3 +400,6 @@ FodyWeavers.xsd
 # Assembly CSharp and Unity files
 Assembly-CSharp.dll
 Unity/
+
+# Setup env files
+lf.vdf
