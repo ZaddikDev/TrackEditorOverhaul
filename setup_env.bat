@@ -40,7 +40,7 @@ IF NOT "%robobeat_dir%"=="" (
 )
 
 IF EXIST "%robobeat_dir%\" (
-    echo Valid directory detected (%robobeat_dir%\)
+    echo Valid directory detected: %robobeat_dir%\
     if NOT EXIST "%robobeat_dir%\ROBOBEAT_Data\Managed" (
         echo Managed directory missing
         goto end
@@ -49,16 +49,15 @@ IF EXIST "%robobeat_dir%\" (
         mkdir Unity
     )
     echo Copying DLL files
-    set managed_dir="%robobeat_dir%\ROBOBEAT_Data\Managed"
 
-    copy "%managed_dir%\Assembly-CSharp.dll" \>nul
+    copy "%robobeat_dir%\ROBOBEAT_Data\Managed\Assembly-CSharp.dll" .\>nul
     echo Copied game assembly
 
-    copy "%managed_dir%\UnityEngine.dll" \Unity\>nul
-    copy "%managed_dir%\UnityEngine.CoreModule.dll" \Unity\>nul
-    copy "%managed_dir%\UnityEngine.UI.dll" \Unity\>nul
-    copy "%managed_dir%\UnityEngine.UIElementsModule.dll" \Unity\>nul
-    copy "%managed_dir%\UnityEngine.UIModule.dll" \Unity\>nul
+    copy "%robobeat_dir%\ROBOBEAT_Data\Managed\UnityEngine.dll" .\Unity\>nul
+    copy "%robobeat_dir%\ROBOBEAT_Data\Managed\UnityEngine.CoreModule.dll" .\Unity\>nul
+    copy "%robobeat_dir%\ROBOBEAT_Data\Managed\UnityEngine.UI.dll" .\Unity\>nul
+    copy "%robobeat_dir%\ROBOBEAT_Data\Managed\UnityEngine.UIElementsModule.dll" .\Unity\>nul
+    copy "%robobeat_dir%\ROBOBEAT_Data\Managed\UnityEngine.UIModule.dll" .\Unity\>nul
     echo Copied Unity files
 
     if NOT EXIST "%robobeat_dir%\BepInEx" (
