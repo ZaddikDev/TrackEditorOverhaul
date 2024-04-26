@@ -1,5 +1,9 @@
 # Track Editor Overhaul
-A ROBOBEAT Demo mod that overhauls the track editor.
+A ROBOBEAT Demo mod that overhauls the track editor. It currently adds:
+- A text input to the BPM editor so you don't have to painfully choose with the slider.
+
+### Warning!
+> This mod is in alpha! A lot of key features are missing. They will be added as development progresses.
 
 ## Installing
 > These are instructions for setting up the game to **install** the mod. If you want to set up the game for contributing,f ollow all steps but the final one and head to the [Contributing](#contributing) section.
@@ -31,7 +35,7 @@ There are lots of ways to do this. These are 2 of the most popular options:
 After obtaining all of the requirements above, you first need to install BepInEx into the ROBOBEAT Demo folder. Follow all steps but the final one in the [Installing](#installing) section, if you haven't already.
 After that, you need to run `setup_env.bat`, to setup a build environment. This is required, as it copies necessary files such as Unity code and game code.
 
-Finally, after all these steps above, you can finally build your project. Simply open the solution in Visual Studio and right click the project->Build
+Finally, after all these steps above, you can finally build your project. Simply open the solution in Visual Studio and right click the project->Build. The mod's DLL file will be built in `bin/Debug/TrackEditorOverhaul.dll`
 
 ![project right click and build image](https://github.com/ZaddikDev/TrackEditorOverhaul/assets/63800482/b3db0a12-4e25-48c4-960d-7a762efe8b2a)
 
