@@ -2,7 +2,7 @@
 A ROBOBEAT Demo mod that overhauls the track editor.
 
 ## Installing
-> These are instructions for setting up the game to **install** the mod. If you want to set up the game for contributing, head to the [Contributing](https://github.com/ZaddikDev/TrackEditorOverhaul/README.md#contributing) tab.
+> These are instructions for setting up the game to **install** the mod. If you want to set up the game for contributing, head to the [Contributing](#contributing) tab.
 To install the mod, you need:
 - A [copy of ROBOBEAT Demo](https://store.steampowered.com/app/1456760/ROBOBEAT/) (ROBOBEAT will be supported on release)
 - A [copy of BepInEx](https://github.com/BepInEx/BepInEx/releases)
