@@ -41,7 +41,6 @@ IF NOT "%robobeat_dir%"=="" (
 
 IF EXIST "%robobeat_dir%\" (
     echo Valid directory detected (%robobeat_dir%\)
-    echo %robobeat_dir%: > .robobeat_dir
     if NOT EXIST "%robobeat_dir%\ROBOBEAT_Data\Managed" (
         echo Managed directory missing
         goto end
