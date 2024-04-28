@@ -6,7 +6,7 @@ A ROBOBEAT Demo mod that overhauls the track editor. It currently adds:
 > This mod is in alpha! A lot of key features are missing. They will be added as development progresses.
 
 ## Installing
-> These are instructions for setting up the game to **install** the mod. If you want to set up the game for contributing,f ollow all steps but the final one and head to the [Contributing](#contributing) section.
+> These are instructions for setting up the game to **install** the mod. If you want to set up the game for contributing,follow all steps but the final one and head to the [Contributing](#contributing) section.
 To install the mod, you need:
 - A [copy of ROBOBEAT Demo](https://store.steampowered.com/app/1456760/ROBOBEAT/) (ROBOBEAT will be supported on release)
 - A [copy of BepInEx](https://github.com/BepInEx/BepInEx/releases)
@@ -19,6 +19,7 @@ Finally, you have to add the mod copy into BepInEx's plugin folder (BepInEx/plug
 ### Congratulations! You have successfully installed the mod.
 
 ## Contributing
+> Warning! These are instructions to **contribute** to this mod. To install it, follow the instructions on the [Installing](#installing) section.
 To contribute to this project, you need:
 - A [copy of ROBOBEAT Demo](https://store.steampowered.com/app/1456760/ROBOBEAT/) (ROBOBEAT will be supported on release)
 - A [copy of BepInEx](https://github.com/BepInEx/BepInEx/releases)
