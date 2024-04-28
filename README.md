@@ -20,6 +20,7 @@ Finally, you have to add the mod copy into BepInEx's plugin folder (BepInEx/plug
 
 ## Contributing
 > Warning! These are instructions to **contribute** to this mod. To install it, follow the instructions on the [Installing](#installing) section.
+
 To contribute to this project, you need:
 - A [copy of ROBOBEAT Demo](https://store.steampowered.com/app/1456760/ROBOBEAT/) (ROBOBEAT will be supported on release)
 - A [copy of BepInEx](https://github.com/BepInEx/BepInEx/releases)
